@@ -1,9 +1,9 @@
 # **Programming Questions**
 
-<h3>This is source code of frontend of my college website made using HTML, CSS, Javascript</h3>
+<h3>This is source code pf Programming Questions</h3>
 
 <div align="center">
-<h1> College Website </h1>
+<h1> Programming Questions  </h1>
 
 <br/>
 
