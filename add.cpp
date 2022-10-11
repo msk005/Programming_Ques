@@ -1,0 +1,202 @@
+#include<iostream>
+#include<math.h>
+#include<conio.h>
+using namespace std;
+int main()
+{
+   long int p,q,r,a,b,c,op,t,x,y,e,f,g;
+   float u,v,w;
+    cin>>t;
+    while(t--)
+    { op=3;
+    cin>>p>>q>>r;
+    cin>>a>>b>>c;
+      while(1)
+      { //to check one
+        if(p==a&&q==b&&r==c)
+        {
+            op=0;break;
+        }
+        if(p-a==q-b&&q-b==r-c)
+        {   cout<<"ttttt";
+            op=1;break;
+        }
+        if((p==a&&q==b)||(q==b&&r==c)||(p==a&&r==c))
+        {
+            op=1;
+            break;
+        }
+        if(p!=0&&a%p==0)u=a/p;else u=10.7892;
+        if(q!=0&&b%q==0)v=b/q;else v=9.2782;
+        if(r!=0&&c%r==0)w=c/r;else w=3.6721;
+        if(u==v&&v==w)
+        { cout<<"hi";
+          op=1;break;
+        }
+        if((p==a&&(v==w||q-b==r-c))||(q==b&&(u==w||p-a==r-c))||(r==c&&(u==v||p-a==q-b)))
+        {   cout<<"bi";
+            op=1;break;
+        }
+
+       //to check two
+       if((p==a&&(v!=w||q-b!=r-c))||(q==b&&(u!=w||p-a!=r-c))||(r==c&&(u!=v||p-a!=q-b)))
+        {
+            op=2;break;
+        }
+       if(p-a==q-b||q-b==r-c||r-c==p-a||u==v||v==w||u==w||u==v*w||v==u*w||w==u*v)
+       {
+           op=2;break;
+       }
+       e=p-a;f=q-b;g=r-c;
+       if(e==f+g||f==e+g||g==e+f||u==v+w||v==u+w||w==u+v)
+       {
+           op=2;break;
+       }
+       if(p-q!=0&&(a-b)%(p-q)==0)
+       {
+       x=(a-b)/(p-q);y=a-(p*x);
+       if(r*x+y==c)
+       {
+           op=2;break;
+       }
+       }
+       if(q-r!=0&&(b-c)%(q-r)==0)
+       {
+       x=(b-c)/(q-r);y=b-(q*x);
+       if(p*x+y==a)
+       {
+           op=2;break;
+       }
+       }
+       if(p-r!=0&&(a-c)%(p-r)==0)
+       {
+       x=(a-c)/(p-r);y=a-(p*x);
+       if(q*x+y==b)
+       {
+           op=2;break;
+       }
+       }
+       if(a-c!=0&&(c*p-a*r)%(a-c)==0)
+       {
+       y=(c*p-a*r)/(a-c);
+       if(p+y!=0)
+       {
+       x=a/(p+y);
+       if((q+y)*x==b)
+       {
+           op=2;break;
+       }
+       }
+       }
+
+       if(a-b!=0&&(b*p-a*q)%(a-b)==0)
+       {
+       y=(b*p-a*q)/(a-b);
+       if(p+y!=0)
+       {
+       x=a/(p+y);
+       if((r+y)*x==c)
+       {
+           op=2;break;
+       }
+       }
+       }
+       if(b-c!=0&&(c*q-b*r)%(b-c)==0)
+       {
+       y=(c*q-b*r)/(b-c);
+       if(q+y!=0)
+       {x=b/(q+y);
+       if((p+y)*x==a)
+       {
+           op=2;break;
+       }
+       }
+       }
+       if(r!=0)
+       {
+           x=a-p;y=c/r;
+           if((q+x)*y==b)
+           {
+               op=2;break;
+           }
+           x=c/r;y=b-q;
+           if(p*x+y==a)
+           {
+               op=2;break;
+           }
+           y=c/r;x=a-(p*y);
+           if(q*y+x==b)
+           {
+               op=2;break;
+           }
+       }
+       if(q!=0)
+       {
+           x=c-r;y=b/q;
+           if((p+x)*y==a)
+           {
+               op=2;break;
+           }
+           x=b/q;y=a-p;
+           if(r*x+y==c)
+           {
+               op=2;break;
+           }
+           y=b/q;x=c-(r*y);
+           if(p*y+x==a)
+           {
+               op=2;break;
+           }
+       }
+       if(p!=0)
+       {
+           x=b-q;y=a/p;
+           if((r+x)*y==c)
+           {
+               op=2;break;
+           }
+           x=a/p;y=c-r;
+           if(q*x+y==b)
+           {
+               op=2;break;
+           }
+           y=a/p;x=b-(q*y);
+           if(r*y+x==c)
+           {
+               op=2;break;
+           }
+       }
+       x=a-p;
+       if(x+q!=0)
+       {
+           y=b/(x+q);
+           if((r+x)*y==c)
+           {
+               op=2;break;
+           }
+       }
+       x=c-r;
+       if(x+q!=0)
+       {
+           y=b/(x+q);
+           if((p+x)*y==a)
+           {
+               op=2;break;
+           }
+       }
+       x=b-q;
+       if(x+r!=0)
+       {
+           y=c/(x+r);
+           if((p+x)*y==a)
+           {
+               op=2;break;
+           }
+       }
+
+       break;
+      }
+    cout<<op<<endl;
+    }
+    getch();
+}
