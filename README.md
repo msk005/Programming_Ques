@@ -113,7 +113,7 @@ We're happy to merge valid pull requests to this repository !
 To get approval of the pull request much quicker (`Follow Me`)🚀
 '''
 ```
-<a align="center" href="https://github.com/msk005"><kbd><img src="https://avatars3.githubusercontent.com/msk005?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Vinayak Saini</b></sub></a><br />
+<a align="center" href="https://github.com/msk005"><kbd><img src="https://avatars3.githubusercontent.com/msk005?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Manish Singh Kushwaha</b></sub></a><br />
 
 `For doubts contact mail@manish.me`
 ### Happy coding fellas!!💕✨
