@@ -1,6 +1,6 @@
 # **Programming Questions**
 
-<h3>This for source code of Programming Questions</h3>
+<h3>This repository is for source code of Programming Questions</h3>
 
 <div align="center">
 <h1> Programming Questions  </h1>
