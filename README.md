@@ -1,6 +1,6 @@
 # **Programming Questions**
 
-<h3>This is source code pf Programming Questions</h3>
+<h3>This is source code of Programming Questions</h3>
 
 <div align="center">
 <h1> Programming Questions  </h1>
@@ -10,7 +10,7 @@
 </div>
 
 
-- Anyone can add any type of <b>valid html-css</b> web page depends on you.
+- Anyone can add any type of <b>valid question solutions</b> .
 
 - Do not just <b>re-edit</b> the file or make <b>some small changes</b> this kind of PRs will not be accepted.
 
@@ -83,7 +83,7 @@ Now submit the pull request.
 - ⚓Star this repo to get latest updates.
   If you had fun while contributing to this project, then don't forget to give this project a star ⭐.
 
-- ⚓Give your file a proper extension according to language. Ex. .py, .java, .js. html etc.
+- ⚓Give your file a proper extension according to language. Ex. .py, .java, .js. .cpp etc.
 - ⚓Name your file related to your topic.
 - ⚓You can follow ME😁.
 -----------------------------------------
