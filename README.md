@@ -10,7 +10,7 @@
 </div>
 
 
-- Anyone can add any type of <b>valid question solutions</b> .
+- Anyone can add <b>valid question solutions</b> properly with input taken and without error.
 
 - Do not just <b>re-edit</b> the file or make <b>some small changes</b> this kind of PRs will not be accepted.
 
